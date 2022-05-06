@@ -1,0 +1,5 @@
+[*]
+charset=utf-8
+end_of_line=lf
+ident_size=2
+insert_final_newline=true

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                             /*  which target of JavaScript should be emitted from the given TypeScript. */
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],       /*  default set of type definitions */    
+    "module": "ES2020",                             /*  module syntax of emitted code  */
+    "moduleResolution": "node",                     /*  how the compiler tries to find (resolve) your modules */
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,                                 /*  stronger type checking behavior */
+    "outDir": "dist",
+    "declaration": true,                            /*  Generate .d.ts files for every TypeScript or JavaScript file */
+    "emitDeclarationOnly": true,                    /*  Only emit .d.ts files; do not emit .js files. */
+    "declarationMap": true,                         /*  Generates a sourcemap for each .d.ts file. */
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@styles/*": ["./src/styles/*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": [
+    "node_modules",
+  ],
+}
+
+// emit declarations file with vite ????

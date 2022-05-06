@@ -1,0 +1,7 @@
+{
+  "name": "plm-components/hooks",
+  "private": true,
+  "types": "../dist/src/hooks.d.ts",
+  "main": "./dist/hooks.cjs.js",
+  "module": "./dist/hooks.es.js"
+}
